@@ -1,0 +1,32 @@
+body{margin: 0%;}
+
+.logo{height:50px;
+    font-weight: 3px;
+    display: flex;
+    font-size: medium;
+}
+
+.logo img{
+    margin-right: 7px;
+    margin-left: 4px;
+    
+}
+header{ height: 70px;
+    background-color: peachpuff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: peru;
+    }
+
+a:hover{color: beige;}
+
+a{ text-decoration: none ; 
+    padding-right: 7px;
+    font-weight: 700;
+    color:peru;
+}
+
+
+
