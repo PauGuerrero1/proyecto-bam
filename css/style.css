@@ -22,8 +22,8 @@ header{ height: 70px;
 
 a:hover{color: beige;}
 
-a{ text-decoration: none ; 
-    padding-right: 7px;
+nav a{ text-decoration: none ; 
+    padding-right: 10px;
     font-weight: 700;
     color:peru;
 }
