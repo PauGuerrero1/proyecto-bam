@@ -8,17 +8,19 @@ body{margin: 0%;}
 
 .logo img{
     margin-right: 7px;
-    margin-left: 4px;
-    
-}
+    margin-left: 4px;}
+
+
 header{ height: 70px;
     background-color: peachpuff;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: peru;
-    }
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+}
+
+
 
 a:hover{color: beige;}
 
@@ -28,5 +30,40 @@ nav a{ text-decoration: none ;
     color:peru;
 }
 
+section div h1 {
+    background-image: url("../images/back.inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 19%;
+    padding-top: -5%;
+    color: white;
+    text-align: center;}
+    
+h1{ padding-bottom: 7%;
+    font-weight: 300;}   
 
+.centro{text-align:center ;
+    padding-right: 50% 50%;
+    color: darksalmon;
+    padding-top: 30% 30%;}
+    
+.primercombo img{ height: 30px}
+.primercombo{ display: flex;}
+.primercombo h2{ color: peru;}
 
+.segundocombo img{height: 25px}
+.segundocombo{ display: flex;}
+.segundocombo h2{ color: peru}
+
+.tercercombo img{ height: 25px;}
+.tercercombo{ display: flex}
+.tercercombo h2{ color: peru;}
+
+footer{ background-color: papayawhip;
+padding-top: 30% 30%;
+color: gray;
+}
+
+footer div{text-align: center;
+align-items: column;}
