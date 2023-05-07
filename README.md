@@ -2,4 +2,5 @@
 4/05/23 cree mis carpetas y readme
 5//05/23 cree la carpeta imagenes y forme el header
 hice los section fuera del header en html.
-Genere los section y el footer del inicio
+Genere los section y el footer del inicio.
+6/05/23 Conecte las paginas e hice el html de la pagina servicios
