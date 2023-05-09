@@ -20,6 +20,74 @@
             
         </nav>
     </header>
+    <section> <h2> Para solicitar un turno, complete los siguientes datos que se piden:</h2>
+        <form action="">
+            <fieldset> 
+                <legend>Datos personales</legend>
+                <label for="nom">Nombre</label>
+                <input type="text">
+                <br>
+                <label for="nom">Apellido</label>
+                <input type="text">
+                <br>
+                <label for="correo">correo electronico</label>
+                <input type="text">
+                <br>
+                <label for="dni">DNI</label>
+                <input type="text">
+                <label for="comentarios"> comentenos los servicios que desea comprar</label>
+                <textarea name="servicios" id="quequeres" cols="30" rows="10">escriba sus servicios</textarea>
+                <br>
+            </fieldset>
+            <br>
+            <fieldset> 
+                <legend>Dia, Horario y Promo</legend>
+                <select name="quediaquiere" id="seleccione">
+                    <option value="miercoles">miercoles</option>
+                    <option value="jueves">jueves</option>
+                    <option value="viernes">viernes</option>
+                </select> <br>
+                <select name="quehorario" id="seleccione">
+                    <option value="nueveam">9am</option>
+                    <option value="dieciseispm">16pm</option>
+                    <option value="diecinuevepm">19pm</option>
+                </select>
+                <label>Seleccione promocion/es
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="combos" id="combouno"> <label for="combouno">Combo 1</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="combos" id="combodos"> <label for="combodos">Combo 2</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="combos" id="combotres"> <label for="combotres">Combo 3</label>
+                        </li>
+                    </ul>
+                </label>
+            </fieldset>
+            <input type="button" value="enviar formulario">
+            <input type="button" value="limpiar formulario">
+        </form>
+    </section>
 
+    <footer>
+        <div class="contacto">
+            <p>
+                <a href="#" class="tweet">
+                    <img src="../images/tw.png" alt="tw">
+                </a>
+                <a href="mailto:"> MAIL: centroestetica@gmail.com</a>
+                <a href="tel:+" class="wpp">
+                    <img src="../images/wpp.jpg" alt="wpp">
+                </a>
+                <a href="#">
+                    <img class="insta" src="../images/ig.jpg" alt="ig">
+                </a>
+                
+                
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
